@@ -1,3 +1,5 @@
+### 本仓库在[MarSeventh/Sanyue-ImgHub](https://github.com/MarSeventh/Sanyue-ImgHub)的基础上进行修改，以供个人网站使用。以下为原项目介绍
+
 # sanyue_imghub
 
 ### 本仓库为[MarSeventh/CloudFlare-ImgBed](https://github.com/MarSeventh/CloudFlare-ImgBed)项目的前端仓库，详细介绍及部署方式请移步该仓库。
