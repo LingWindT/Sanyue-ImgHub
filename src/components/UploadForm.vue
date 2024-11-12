@@ -795,7 +795,7 @@ methods: {
 }
 .el-upload__tip {
     font-size: medium;
-    color: antiquewhite;
+    color: #409EFF;
     user-select: none;
 }
 .upload-list-dashboard {

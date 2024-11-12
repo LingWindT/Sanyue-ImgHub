@@ -26,10 +26,10 @@
             </el-tooltip>
         </div>
         <div class="header">
-            <a href="https://github.com/MarSeventh/CloudFlare-ImgBed">
-                <img class="logo" alt="Sanyue logo" :src="logoUrl"/>
+            <a href="https://blog.2000223.xyz/">
+                <img class="logo" alt="Llogo" :src="logoUrl"/>
             </a> 
-            <h1 class="title"><a class="main-title" href="https://github.com/MarSeventh/CloudFlare-ImgBed" target="_blank">{{ ownerName }}</a> ImgHub</h1>
+            <h1 class="title"><a class="main-title" href="https://blog.2000223.xyz/" target="_blank">{{ ownerName }}</a> Imgbox</h1>
         </div>
         <UploadForm 
             :selectedUrlForm="selectedUrlForm" 
@@ -149,7 +149,7 @@ export default {
     computed: {
         ...mapGetters(['userConfig', 'bingWallPapers', 'uploadCopyUrlForm', 'compressConfig', 'storeUploadChannel']),
         ownerName() {
-            return this.userConfig?.ownerName || 'Sanyue'
+            return this.userConfig?.ownerName || 'LWind'
         },
         logoUrl() {
             return this.userConfig?.logoUrl || require('../assets/logo.png')
@@ -400,23 +400,23 @@ export default {
     align-items: center;
     padding: 15px;
     margin-top: 5vh;
-    color: blanchedalmond;
+    color: rgb(212, 242, 255);
     user-select: none;
     text-decoration: none;
 }
 .main-title {
-    background: linear-gradient(to right, rgb(239, 250, 195), #f3a060);
+    background: linear-gradient(to right, rgb(255, 154, 154), rgb(212, 242, 255));
     background-clip: text;
     color: transparent;
     text-decoration: none;
 }
 .logo {
-    height: 90px;
-    width: 90px;
+    height: 50px;
+    width: 50px;
     margin-right: 5px;
 }
 .title {
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 700;
     font-family: 'Noto Sans SC', sans-serif;
 }

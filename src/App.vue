@@ -15,7 +15,7 @@ export default {
   },
   methods: {
     setSiteTitle() {
-      document.title = this.userConfig?.siteTitle || 'Sanyue ImgHub'
+      document.title = this.userConfig?.siteTitle || 'LWind ImgBox'
     },
     setSiteIcon() {
       const link = document.createElement('link')
